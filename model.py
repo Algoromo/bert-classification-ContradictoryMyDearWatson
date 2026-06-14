@@ -1,0 +1,1 @@
+# chargement / définition du modèle BERT
