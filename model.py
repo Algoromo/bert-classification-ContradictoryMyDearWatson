@@ -2,7 +2,7 @@ import torch
 from transformers import (AutoModelForSequence, ClassificationAutoTokenizer)
 
 MODEL_NAME = "bert-base-multilingual-cased"
-NUM_LABELS = 3  # 0,1,2
+NUM_LABELS = 3 
 
 # Charge le tokenizer pré-entraîné correspondant au modèle.
 def load_tokenizer(model_name: str = MODEL_NAME):
