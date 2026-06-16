@@ -74,7 +74,7 @@ def plot_training_curves(history, save_path="images\\training_curves.png"):
     plt.close()
 
 
-def plot_confusion_matrix(y_true, y_pred, class_names, save_path="confusion_matrix.png"):
+def plot_confusion_matrix(y_true, y_pred, class_names, save_path="./images/confusion_matrix.png"):
     """
     Trace et sauvegarde la matrice de confusion.
 

@@ -1,5 +1,5 @@
 import torch
-from transformers import (AutoModelForSequence, ClassificationAutoTokenizer)
+from transformers import (AutoTokenizer, AutoModelForSequenceClassification)
 
 MODEL_NAME = "bert-base-multilingual-cased"
 NUM_LABELS = 3 

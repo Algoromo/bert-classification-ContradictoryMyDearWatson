@@ -1,7 +1,5 @@
 # Python
 __pycache__/
-.venv/
-venv/
 
 data/
 *.csv
@@ -25,14 +23,15 @@ __pycache__/
 *$py.class
 .pytest_cache/
 
-.vscode/
-.idea/
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.swp
 
-Thumbs.db
-ehthumbs.db
-Desktop.ini
+# Gradio 
+
+.gradio/
+
+# Checkpoints
+
+checkpoints/
+
+# test 
+
+test.ipynb
